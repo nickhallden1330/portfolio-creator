@@ -1,0 +1,254 @@
+/* roboto-regular - latin */
+@font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+ /* roboto-700 - latin */
+ @font-face {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   src: local(''),
+        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+ }
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: 0;
+   font-family: "roboto";
+}
+
+img {
+   vertical-align: middle;
+}
+
+.container {
+   width: 1215px;
+   margin: 0 auto;
+   padding: 0 40px;
+}
+.header-site {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 41px 0 83px 0;
+}
+
+.site-logo {
+   display: inline-block;
+}
+
+.header-list {
+   margin: 0;
+   display: flex;
+   list-style: none;
+}
+
+/* header */
+
+
+.header-item {
+   text-decoration: none;
+   margin-left: 40px;
+}
+
+.active {
+   margin-left: 0;
+}
+
+.header-link {
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+}
+
+.link-logo {
+   margin-left: 10px;
+}
+/* header-end--:) */
+/* hero */
+
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero-content {
+   width: 715px;
+}
+
+.color {
+   font-weight: bold;
+   font-size: 72px;
+   line-height: 82px;
+   letter-spacing: 2px;
+   color: #FF8A56;
+}
+
+.hero-title {
+   margin-bottom: 34px;
+   font-weight: bold;
+   font-size: 72px;
+   line-height: 82px;
+   letter-spacing: 2px;
+   color: #000000;
+   
+}
+
+.hero-text-card {
+   width: 547px;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 33px;
+   color: #666666;
+
+}
+
+.hero-social-link {
+   margin-top: 40px;
+}
+
+.hero-link-btn {
+   margin-right: 40px;
+   padding: 17px 30px 23px 30px;
+   background-color: #000000;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 18px;
+   color: #FFFFFF;
+   
+}
+
+.hero-link-btn-second {
+   margin-right: 15px;
+   text-decoration: none;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 18px;
+   color: #000000;
+}
+/* hero end */
+/* logos */
+.logos {
+   margin-top: 224px;
+}
+
+
+.logos-title {
+   margin-bottom: 45px;
+   text-align: center;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 18px;
+   color: #000000;
+}
+
+.logos-img {
+   margin-bottom: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+/* end */
+.services-section {
+   padding-bottom: 110px;
+}
+
+.services-text-top {
+   margin-bottom: 20px;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 22px;
+   text-align: center;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+   color: #FF5E69;
+}
+
+.services-title-inner {
+   width: 768px;
+   margin: 0 auto;
+}
+
+.services-title {
+   margin-bottom: 115px;
+   font-weight: 700;
+   font-size: 54px;
+   line-height: 59px;
+   text-align: center;
+   letter-spacing: 1px;
+   color: #000000;
+}
+
+.services-list {
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.services-img {
+   margin-bottom: 39px;
+}
+
+.services-content {
+   width: 252px;
+}
+
+.services-title-bottom {
+   margin-bottom: 25px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 26px;
+   color: #000000;
+}
+
+.services-text-bottom {
+   margin-bottom: 21px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #666666;
+}
+
+.servi-list {
+   list-style-type: none;
+}
+
+.servi-item {
+   position: relative;
+   margin-bottom: 10px;
+   padding-left: 17px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.servi-item::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   left: 0px;
+   width: 7px;
+   height: 7px;
+   background-color: #000000;
+}
+
+
+
