@@ -428,6 +428,10 @@ img {
    border-bottom: 1px solid #FFF;
 }
 
+.blog-bottom-item:nth-child(1) {
+   padding-top: 19px;
+}
+
 .blog-bottom-item ~ .blog-bottom-item {
    padding-top: 61px;
 }
