@@ -361,9 +361,35 @@ img {
 }
 
 .blog-section {
-   padding-top: 276px;
+   position: relative;
+   z-index: -1;
+   padding-top: 290px;
    padding-bottom: 144px;
    background-color: #000000;
+}
+
+.blog-section::before {
+   content: "";
+   width: 54px;
+   height: 54px;
+   position: absolute;
+   background-image: url("../images/stock-left.png");
+   background-repeat: no-repeat;
+   background-size: 54px 54px;
+   top: 195px;
+   right: calc(50% - 586px);
+}
+
+.blog-section::after {
+   content: "";
+   width: 54px;
+   height: 54px;
+   position: absolute;
+   background-image: url("../images/stock-right.png");
+   background-repeat: no-repeat;
+   background-size: 54px 54px;
+   top: 195px;
+   right: calc(50% - 647px);
 }
 
 .blog-top-text {
